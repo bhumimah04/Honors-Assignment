@@ -1,0 +1,13 @@
+{
+  "name": "honors-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch file1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhumi Maheshwari",
+  "license": "MIT"
+}
+
