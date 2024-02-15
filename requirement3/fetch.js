@@ -26,7 +26,6 @@ const offsets = [31, 51, 61];
 // Fetch data for all offsets concurrently and combine into one array
 const combinedDataArray = await Promise.all(offsets.map(offset => fetchData(offset)))
     .then(dataArrays => dataArrays.flat());
-
 console.log('Combined data:');
 console.log(combinedDataArray);
 console.log('Script microtask execution complete.');
