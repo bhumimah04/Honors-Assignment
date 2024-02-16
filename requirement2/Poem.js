@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 function printPoemContent() {
     try {
-        const data = readFileSync('poem.txt', 'utf8');
+        const data = readFileSync('requirement2/Poem.txt', 'utf8');
         console.log(data);
     } 
     catch (err) {
